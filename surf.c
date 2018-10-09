@@ -1795,7 +1795,6 @@ scroll(Client *c, const Arg *a)
 	ev->key.window = gtk_widget_get_window(GTK_WIDGET(c->win));
 	ev->key.state = GDK_CONTROL_MASK;
 	ev->key.time = GDK_CURRENT_TIME;
-
 	switch (a->i) {
 	case 'd':
 		ev->key.keyval = GDK_KEY_Down;
