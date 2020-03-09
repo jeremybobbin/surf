@@ -56,7 +56,7 @@ static UriParameters uriparams[] = {
 	  [JavaScript] = { { .i = 0 }, 1 },
 	  [Plugins]    = { { .i = 0 }, 1 },
 	}, },
-	{ "(://|\\.)google\\.com(/|$)", {
+	{ "(://|www.)google\\.com(/|$)", {
 	  [JavaScript] = { { .i = 0 }, 1 },
 	  [Plugins]    = { { .i = 0 }, 1 },
 	}, },
