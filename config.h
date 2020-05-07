@@ -60,6 +60,14 @@ static UriParameters uriparams[] = {
 	  [JavaScript] = { { .i = 0 }, 1 },
 	  [Plugins]    = { { .i = 0 }, 1 },
 	}, },
+	{ "(://|www.)(stackoverflow|superuser)\\.com(/|$)", {
+	  [JavaScript] = { { .i = 0 }, 1 },
+	  [Plugins]    = { { .i = 0 }, 1 },
+	}, },
+	{ "(://|www.)reddit\\.com(/|$)", {
+	  [JavaScript] = { { .i = 0 }, 1 },
+	  [Plugins]    = { { .i = 0 }, 1 },
+	}, },
 	{ "(://|\\.)zendesk\\.com(/|$)", {
 	  [AcceleratedCanvas]  = { { .i = 0   }, 1 },
 	  [SmoothScrolling]    = { { .i = 0   }, 1 },
