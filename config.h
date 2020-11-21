@@ -70,6 +70,7 @@ static UriParameters uriparams[] = {
 	}, },
 	{ "(://|\\.)zendesk\\.com(/|$)", {
 	  [AcceleratedCanvas]  = { { .i = 0   }, 1 },
+	  [CookiePolicies]     = { { .v = "Aa"},   },
 	  [SmoothScrolling]    = { { .i = 0   }, 1 },
 	  [WebGL]              = { { .i = 0   }, 1 },
 	  [ZoomLevel]          = { { .f = 1.1 }, 1 },
